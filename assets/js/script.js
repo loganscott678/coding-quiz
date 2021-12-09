@@ -15,3 +15,33 @@
 
 // if statement for correct answer validation 
 
+var currentQuestionIndex = 0
+
+var quiz = document.getElementById('quiz-section');
+
+var timer = document.getElementById('timer');
+
+
+
+var questions = [
+    {
+        q: 'Placeholder Question'
+        , choices: [
+            'a. option 1'
+            , 'b. option 2'
+            , 'c. option 3'
+            , 'd. option 4'
+        ]
+        , answer: 'a. option 1'
+    }
+
+    {
+
+    }
+]
+
+
+
+// function getQuestion() {
+//     var currentQ = questions
+// }
